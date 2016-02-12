@@ -1,0 +1,5 @@
+@mixin borda-arredondada($num){
+    -moz-border-radius: $num;
+    -webkit-border-radius: $num;
+    border-radius: $num;
+}

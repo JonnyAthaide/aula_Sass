@@ -1,0 +1,124 @@
+/*RESET*/
+/* line 3, ../scss/menu.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 8, ../scss/menu.scss */
+ul {
+  list-style: none;
+}
+
+/* line 12, ../scss/menu.scss */
+a {
+  text-decoration: none;
+}
+
+/*NAVIGATION*/
+/* line 18, ../scss/menu.scss */
+nav#navigation {
+  width: 960px;
+  margin: auto;
+  position: relative;
+  background: #333;
+  margin-top: 10px;
+}
+/* line 25, ../scss/menu.scss */
+nav#navigation ul {
+  border-bottom: 5px solid #000;
+}
+/* line 28, ../scss/menu.scss */
+nav#navigation ul li {
+  display: inline-block;
+}
+/* line 31, ../scss/menu.scss */
+nav#navigation ul li a {
+  display: block;
+  padding: 15px;
+  padding-top: 20px;
+  color: #FFF;
+  font: bold 12px Arial;
+}
+
+/*LINE*/
+/* line 44, ../scss/menu.scss */
+span.line {
+  display: block;
+  position: absolute;
+  width: 66px;
+  height: 5px;
+  background: #06c;
+  bottom: 0;
+}
+
+/* line 15, ../scss/aula.scss */
+.vermelho {
+  color: red;
+}
+
+/* line 18, ../scss/aula.scss */
+.amarelo {
+  color: yellow;
+}
+
+/* line 21, ../scss/aula.scss */
+.verde {
+  color: green;
+}
+
+/* line 25, ../scss/aula.scss */
+.error {
+  font-color: white;
+  background-color: #abcdef;
+  width: 300px;
+  border: 1px #abcdef;
+}
+
+/* line 32, ../scss/aula.scss */
+.selected {
+  border: 1px #abcdef solid;
+}
+
+/* line 36, ../scss/aula.scss */
+.selected2 {
+  border: 1px #abcdef solid;
+}
+
+/* line 40, ../scss/aula.scss */
+nav {
+  border: 1px #abcdef solid;
+  border-left: 0px;
+  border-right: 0px;
+}
+/* line 45, ../scss/aula.scss */
+nav ul {
+  margin: 0;
+  paddin: 0;
+  list-style: none;
+}
+/* line 50, ../scss/aula.scss */
+nav li {
+  display: inline-block;
+}
+/* line 53, ../scss/aula.scss */
+nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+
+/* line 60, ../scss/aula.scss */
+article {
+  width: 300px;
+  margin: auto;
+  text-align: center;
+}
+/* line 64, ../scss/aula.scss */
+article p {
+  background-color: green;
+  border: 1px #abcdef solid;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}

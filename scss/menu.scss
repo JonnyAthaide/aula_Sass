@@ -1,0 +1,51 @@
+/*RESET*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*NAVIGATION*/
+
+nav#navigation {
+  width: 960px;
+  margin: auto;
+  position: relative;
+  background: #333;
+  margin-top: 10px;
+
+  ul {
+    border-bottom: 5px solid #000;
+
+    li {
+      display: inline-block;
+
+      a {
+        display: block;
+        padding: 15px;
+        padding-top: 20px;
+        color: #FFF;
+        font: bold 12px Arial;
+      }
+    }
+  }
+}
+
+/*LINE*/
+
+span.line {
+  display: block;
+  position: absolute;
+  width: 66px;
+  height: 5px;
+  background: #06c;
+  bottom: 0;
+}

@@ -1,0 +1,69 @@
+@import "menu.scss";
+@import "mixin.scss";
+
+
+$highlight-color: #abcdef;
+$width: 300px;
+$base-color: #ffffff;
+$background-color: #abcdef;
+$cor-vermelho: red;
+$cor-amarelo: yellow;
+$cor-verde: green;
+
+$highlight-border: 1px $highlight-color solid;
+
+.vermelho{
+    color: $cor-vermelho;
+}
+.amarelo{
+    color: $cor-amarelo;
+}
+.verde{
+    color: $cor-verde;
+}
+
+.error{
+    font-color: $base-color;
+    background-color: $background-color;
+    width: $width;
+    border: 1px $highlight-color;
+}
+
+.selected{
+    border: 1px $highlight-color solid;
+}
+
+.selected2{
+    border: $highlight-border;
+}
+
+nav{
+    border: $highlight-border{
+        left: 0px;
+        right: 0px;
+    }
+    ul{
+        margin: 0;
+        paddin: 0;
+        list-style: none;
+    }
+    li{
+        display: inline-block;
+    }
+    a{
+        display: block;
+        padding: 6px 12px;
+        text-decoration: none;
+    }
+}
+
+article{
+    width: $width;
+    margin: auto;
+    text-align: center;
+    p{
+        background-color: $cor-verde;
+        border: $highlight-border;
+        @include borda-arredondada(5px);
+    }
+}
